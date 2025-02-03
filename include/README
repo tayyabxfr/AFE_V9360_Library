@@ -1,0 +1,19 @@
+# AFE_V9360 Library
+
+This is an **Arduino/ESP32** library for interfacing with the **AFE V9360** power sensor. The library provides an easy-to-use API to measure **voltage, current, and power** from the AFE V9360 chip.
+
+## 📌 Features
+- Read **voltage, current, and power** from the AFE V9360.
+- Uses **efficient communication** over UART.
+- Designed for **ESP32 and Arduino-compatible** boards.
+- Optimized for **low-latency readings**.
+
+---
+
+## 📥 Installation
+
+### 1️⃣ **Using GitHub**
+Clone the repository and place it in the `lib/` folder of your **PlatformIO** or **Arduino** project:
+
+```sh
+git clone https://github.com/tayyabxfr/AFE_V9360_Library.git

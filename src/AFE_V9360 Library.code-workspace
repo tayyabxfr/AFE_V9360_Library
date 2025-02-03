@@ -1,0 +1,20 @@
+{
+	"name": "AFE_V9360_Library",
+	"version": "1.0.0",
+	"description": "Library for interfacing with AFE V9360",
+	"keywords": ["AFE", "V9360", "sensor", "ESP32"],
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/tayyabxfr/AFE_V9360_Library"
+	},
+	"frameworks": ["arduino"],
+	"platforms": [
+		"espressif32"
+	],
+	"folders": [
+		{
+			"path": ".."
+		}
+	]
+  }
+  
