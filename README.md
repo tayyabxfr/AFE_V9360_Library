@@ -6,17 +6,18 @@ This library was developed to simplify communication with the AFEVANGOV9360 devi
 
 ## Key features include:
 
-UART Communication: Utilizes Arduino's Serial1 interface for transmitting and receiving data.
-Checksum Validation: Implements robust checksum calculations to ensure data integrity.
-Flexible Data Reading: Provides functions to read voltage, current, and power with proper data conversion.
-Easy-to-Use API: Designed to be straightforward to integrate into your projects.
-Features
-Initialization: Set up the AFE with a single function call.
-Data Acquisition: Read voltage, current, and power measurements.
-Data Integrity: Validate responses using checksums.
-Debugging Support: Optional debug prints to help troubleshoot communication issues.
-Installation
-Download or Clone the Repository:
+- UART Communication: Utilizes Arduino's Serial1 interface for transmitting and receiving data.
+- Checksum Validation: Implements robust checksum calculations to ensure data integrity.
+- Flexible Data Reading: Provides functions to read voltage, current, and power with proper data conversion.
+- Easy-to-Use API: Designed to be straightforward to integrate into your projects.
+## Features
+- Initialization: Set up the AFE with a single function call.
+- Data Acquisition: Read voltage, current, and power measurements.
+- Data Integrity: Validate responses using checksums.
+- Debugging Support: Optional debug prints to help troubleshoot communication issues.
+  
+# Installation
+- Download or Clone the Repository:
 
 git clone https://github.com/tayyabxfr/AFE_V9360_Library.git
 Add to Arduino IDE:
