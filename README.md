@@ -1,10 +1,10 @@
-AFEVANGOV9360 Arduino Library
+# AFEVANGOV9360 Arduino Library
 The AFEVANGOV9360 library provides an easy-to-use interface for communicating with the AFEVANGOV9360 analog front-end (AFE) device using UART. With this library, you can initialize the AFE, read voltage, current, and power data, and write configuration commands, all while ensuring data integrity through checksum validation.
 
-About
+# About
 This library was developed to simplify communication with the AFEVANGOV9360 device in Arduino-based projects. The library handles the low-level UART communication, including constructing command packets, calculating checksums, and verifying responses from the AFE. It is especially useful for applications that require accurate measurements of electrical parameters.
 
-Key features include:
+## Key features include:
 
 UART Communication: Utilizes Arduino's Serial1 interface for transmitting and receiving data.
 Checksum Validation: Implements robust checksum calculations to ensure data integrity.
@@ -30,8 +30,8 @@ Include in Your Project:
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. If you find a bug or have a feature request, please open an issue.
 
-License
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+# Acknowledgments
 Special thanks to all contributors and the open-source community for their invaluable support and feedback.
