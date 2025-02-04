@@ -1,5 +1,4 @@
 #include "AFEVANGOV9360.h"
-  uint8_t data[4]  ;
 // Constructor
 AFEVANGOV9360::AFEVANGOV9360() {}
 
