@@ -1,4 +1,8 @@
 #include "AFEVANGOV9360.h"
+//frirend function
+void accessWritedata(AFEVANGOV9360& afe, uint32_t data, AFERegister reg) {
+    afe.writedata(data, reg);  // Can access private method
+}
 // Constructor
 AFEVANGOV9360::AFEVANGOV9360() {}
 

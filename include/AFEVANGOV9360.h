@@ -30,7 +30,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  *
 */
-
 #ifndef AFEVANGOV9360_H
 #define AFEVANGOV9360_H
 
@@ -71,6 +70,8 @@ public:
     uint32_t voltage();
     uint32_t current();
     int32_t power();
+    
+    friend void accessWritedata(AFEVANGOV9360& afe, uint32_t data, AFERegister reg);
 
 private:
     uint32_t readdata(AFECommand CMD, AFERegister REG);
