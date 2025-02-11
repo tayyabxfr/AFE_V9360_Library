@@ -59,7 +59,10 @@ enum AFERegister :  uint8_t {
     VOLTAGE_REG = 0x19,
     CURRENT_REG = 0x1B,
     POWER_REG = 0x16,
-    DSP_CTRL0 = 0x02
+    DSP_CTRL0 = 0x02,
+    VOLTAGE_GAIN = 0x2D,
+    CURRENT_GAIN = 0x31,
+    POWER_GAIN = 0x29
 };
 
 class AFEVANGOV9360 {
