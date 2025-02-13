@@ -9,7 +9,7 @@ AFEVANGOV9360::AFEVANGOV9360() {}
 // Initialization function
 void AFEVANGOV9360::begin() {
     Serial1.begin(AFE_BAUD_RATE, SERIAL_8O1, RX_PIN, TX_PIN);
-    writedata(0X00000007, DSP_CTRL0);  // write to initialize the AFE
+   // writedata(0X00000007, DSP_CTRL0);  // write to initialize the AFE
 }
 
 // Read data function
