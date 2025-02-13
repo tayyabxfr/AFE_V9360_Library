@@ -1,6 +1,6 @@
 {
 	"name": "AFE_V9360_Library",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Library for interfacing with AFE V9360",
 	"keywords": ["AFE", "V9360", "sensor", "ESP32"],
 	"repository": {

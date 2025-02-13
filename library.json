@@ -16,7 +16,7 @@
         "url": "https://github.com/tayyabxfr/AFE_V9360_Library"
     },
 
-    "version": "1.0.2",
+    "version": "1.0.3",
     "export": {
         "include": [
             "README.md",
