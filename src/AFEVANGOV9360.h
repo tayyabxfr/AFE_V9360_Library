@@ -18,8 +18,6 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-
-
 /*
  * AFEVANGOV9360.h
  *
@@ -67,15 +65,14 @@ enum AFERegister :  uint8_t {
 
 class AFEVANGOV9360 {
 public:
-    AFEVANGOV9360();
-    void begin();
-    
+    AFEVANGOV9360(HardwareSerial& port, uint8_t receivePin, uint8_t transmitPin);
+
     uint32_t voltage();
     uint32_t current();
     int32_t power();
     
     friend void accessWritedata(AFEVANGOV9360& afe, uint32_t data, AFERegister reg);
-
+    AFEVANGOV9360(){};//empty constructor
 private:
     uint32_t readdata(AFECommand CMD, AFERegister REG);
     bool writedata(uint32_t DATA, AFERegister ADDR);

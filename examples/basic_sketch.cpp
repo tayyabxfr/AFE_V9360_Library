@@ -5,7 +5,7 @@
 // void setup() {
 //     Serial.begin(9600);
 //     delay(50);
-//     AFE.begin();
+//     AFE = AFEVANGOV9360(Serial2, 16, 17);
 //       // Initialize the AFE  
 // }
 
