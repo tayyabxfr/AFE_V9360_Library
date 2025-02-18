@@ -10,11 +10,6 @@ AFEVANGOV9360::AFEVANGOV9360(HardwareSerial& port, uint8_t receivePin, uint8_t t
 
 }
 
-// Initialization function
-// void AFEVANGOV9360::begin() {
-//     Serial2.begin(AFE_BAUD_RATE, SERIAL_8O1, RX_PIN, TX_PIN);
-// }
-
 // Read data function
 uint32_t AFEVANGOV9360::readdata(AFECommand cmd, AFERegister reg) {
     uint8_t cmd1 = reg & 0x7F;

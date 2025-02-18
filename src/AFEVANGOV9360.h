@@ -38,8 +38,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 // Serial Communication Configuration
 constexpr uint32_t AFE_BAUD_RATE = 4800;
-constexpr uint8_t RX_PIN = 16;
-constexpr uint8_t TX_PIN = 17;
 
 // Header Byte & Checksum Base
 constexpr uint8_t AFE_HEADER = 0x7D;
